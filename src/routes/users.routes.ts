@@ -3,7 +3,7 @@ import CreateUserService from '../services/CreateUserService';
 
 const usersRouter = Router();
 
-// Cadastar um Agendamento
+// Cadastar um Usuario
 
 usersRouter.post('/', async (request, response) => {
   try {
